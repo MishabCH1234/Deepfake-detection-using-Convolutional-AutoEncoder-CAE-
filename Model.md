@@ -48,7 +48,7 @@ The model follows an **Encoder–Decoder bottleneck architecture**.
 
 ### Model Example
 
----python
+```python
 class Classifier(nn.Module):
     def __init__(self):
         super(Classifier, self).__init__()
